@@ -5,25 +5,25 @@ This project demonstrates a customer segmentation use case using K-Means cluster
 Customer segmentation is a critical step in understanding diverse customer behaviors and personalizing marketing strategies. By leveraging K-Means clustering on simulated RFM data, this project identifies distinct customer groups to enable targeted interventions. Principal Component Analysis (PCA) is used to visualize clusters in two dimensions. The results offer actionable insights for customer retention, reactivation, and value maximization.
 
 ## Methodology
-### 1. Data Simulation:
+### 1. Data Simulation
 A synthetic dataset of 200 customers was generated, including:
   - Recency (days since last purchase),
   - Frequency (number of purchases), and
   - Monetary (total spending).
-### 2. Data Preprocessing:
+### 2. Data Preprocessing
 Standardized RFM features using StandardScaler to remove scale bias.
-### 3.Clustering:
+### 3.Clustering
 Applied K-Means algorithm to segment customers into clusters.
 Used the Elbow Method to determine the optimal number of clusters (k=3).
-### 4. Dimensionality Reduction:
+### 4. Dimensionality Reduction
 Applied PCA (Principal Component Analysis) to reduce RFM data from 3D to 2D for visualization.
-### 5. Visualization:
+### 5. Visualization
 Plotted cluster assignments using color-coded scatter plots.
 
 ## Requirements
 Python >= 3.x
 
-## Libraries:
+## Libraries
 pandas, numpy, matplotlib, seaborn, scikit-learn
 
 ## Results
